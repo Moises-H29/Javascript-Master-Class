@@ -12,10 +12,17 @@ const producto = {
     disponible : true
 }
 
+// console.log(producto.precio);
+// console.log(producto.nombreProducto);
+// console.log(producto.disponible);
+
+// console.log(producto['precio']);  //* Sintaxis alternativa para acceder a las propiedades del objeto 'producto'
+
+
+//? Agregar nuevas propiedades
+producto.imagen = "imagen.jpg"
+
+//! Eliminar propiedades
+delete producto.disponible;
+
 console.log(producto);
-
-console.log(producto.precio);
-console.log(producto.nombreProducto);
-console.log(producto.disponible);
-
-console.log(producto['precio']);  // Sintaxis alternativa para acceder a las propiedades del objeto 'producto'
