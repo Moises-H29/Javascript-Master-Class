@@ -13,6 +13,8 @@ const producto = {
 
 // console.log(Object.isFrozen(producto));
 
+// console.log(Object.isSealed(producto));
+
 // delete producto.precio;
 
 Object.seal(producto);  // La diferencia con .freeze es que si deja modificar las propiedades existentes
