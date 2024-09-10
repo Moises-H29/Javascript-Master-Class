@@ -7,7 +7,7 @@ function sumar() {
 sumar();
 
 // Expresión de la Función
-
+//! Evitamos hoisting
 const sumar2 = function() {
     console.log(3 + 3);
 }
