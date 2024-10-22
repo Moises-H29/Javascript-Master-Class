@@ -34,4 +34,5 @@ const prueba = {
 reservacion.informacion();
 reservacion2.informacion();
 
+// Imprime undefined porque nombrePersona no existe en la ventana global de JavaScript
 prueba.imprime();
