@@ -29,8 +29,8 @@ Producto.prototype.formatearProducto = function() {
     return `El producto ${this.nombre} tiene un precio de $ ${this.precio}`
 }
 
-const producto2 = new Producto('Monitor de 49"', 800, true);
-const producto3 = new Producto('Laptop', 300, false);
+        const producto2 = new Producto('Monitor de 49"', 800, true);
+        const producto3 = new Producto('Laptop', 300, false);
 const producto4 = new Producto('Audifonos', 50, true);
 const producto5 = new Producto('Celular', 200, true);
 
@@ -40,7 +40,7 @@ console.log(cliente);
 
 //! Intentando formatear nuestro objeto SIN usar prototype nos hará escribir muchas funciones únicas para cada objeto
 function formatearProducto(producto) {
-    return `El producto ${producto.nombre} tiene un precio de $ ${producto.precio}`
+    return `El producto ${producto.nombre} tiene un precio de $ ${producto.precio}`;
 }
 console.log(producto2);
 console.log(producto2.formatearProducto());
